@@ -1,0 +1,102 @@
+# test coverage for  [clipboard (v1.6.1)](https://github.com/zenorocha/clipboard.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-clipboard.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-clipboard) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-clipboard.svg)](https://travis-ci.org/npmtest/node-npmtest-clipboard)
+#### Modern copy to clipboard. No Flash. Just 2kb
+
+[![NPM](https://nodei.co/npm/clipboard.png?downloads=true)](https://www.npmjs.com/package/clipboard)
+
+| git-branch : | [alpha](https://github.com/npmtest/node-npmtest-clipboard/tree/alpha)|
+|--:|:--|
+| coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-clipboard/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-clipboard/build/coverage.html/index.html)|
+| test-report : | [![test-report](https://npmtest.github.io/node-npmtest-clipboard/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-clipboard/build/test-report.html)|
+| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-clipboard/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-clipboard/tree/gh-pages/build)|
+
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-clipboard/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-clipboard/build/coverage.html/index.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-clipboard/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-clipboard%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-clipboard/build/test-report.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-clipboard/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-clipboard%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-clipboard/build/apidoc.html)
+
+![npmPackageListing](https://npmtest.github.io/node-npmtest-clipboard/build/screenCapture.npmPackageListing.svg)
+
+![npmPackageDependencyTree](https://npmtest.github.io/node-npmtest-clipboard/build/screenCapture.npmPackageDependencyTree.svg)
+
+
+
+# package.json
+
+```json
+
+{
+    "bugs": {
+        "url": "https://github.com/zenorocha/clipboard.js/issues"
+    },
+    "dependencies": {
+        "good-listener": "^1.2.0",
+        "select": "^1.1.2",
+        "tiny-emitter": "^1.0.0"
+    },
+    "description": "Modern copy to clipboard. No Flash. Just 2kb",
+    "devDependencies": {
+        "babel-cli": "^6.5.1",
+        "babel-core": "^6.5.2",
+        "babel-plugin-transform-es2015-modules-umd": "^6.5.0",
+        "babel-preset-es2015": "^6.5.0",
+        "babelify": "^7.2.0",
+        "bannerify": "github:vekat/bannerify#feature-option",
+        "browserify": "^13.0.0",
+        "chai": "^3.4.1",
+        "install": "^0.8.1",
+        "karma": "^1.3.0",
+        "karma-browserify": "^5.0.1",
+        "karma-chai": "^0.1.0",
+        "karma-mocha": "^1.2.0",
+        "karma-phantomjs-launcher": "^1.0.0",
+        "karma-sinon": "^1.0.4",
+        "mocha": "^3.1.2",
+        "phantomjs-prebuilt": "^2.1.4",
+        "sinon": "^1.17.2",
+        "uglify-js": "^2.4.24",
+        "watchify": "^3.4.0"
+    },
+    "directories": {},
+    "dist": {
+        "shasum": "65c5b654812466b0faab82dc6ba0f1d2f8e4be53",
+        "tarball": "https://registry.npmjs.org/clipboard/-/clipboard-1.6.1.tgz"
+    },
+    "gitHead": "f59d4e6b4db55b0f462eeb96fb74db3469e0765d",
+    "homepage": "https://github.com/zenorocha/clipboard.js#readme",
+    "keywords": [
+        "clipboard",
+        "copy",
+        "cut"
+    ],
+    "license": "MIT",
+    "main": "lib/clipboard.js",
+    "maintainers": [
+        {
+            "name": "zenorocha",
+            "email": "zno.rocha@gmail.com"
+        }
+    ],
+    "name": "clipboard",
+    "optionalDependencies": {},
+    "readme": "ERROR: No README data found!",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zenorocha/clipboard.js.git"
+    },
+    "scripts": {
+        "build": "npm run build-debug && npm run build-min",
+        "build-debug": "browserify src/clipboard.js -s Clipboard -t [babelify] -p [bannerify --file .banner ] -o dist/clipboard.js",
+        "build-min": "uglifyjs dist/clipboard.js --comments '/!/' -m screw_ie8=true -c screw_ie8=true,unused=false -o dist/clipboard.min.js",
+        "build-watch": "watchify src/clipboard.js -s Clipboard -t [babelify] -o dist/clipboard.js -v",
+        "prepublish": "babel src --out-dir lib",
+        "test": "karma start --single-run"
+    },
+    "version": "1.6.1"
+}
+```
+
+
+
+# misc
+- this document was created with [utility2](https://github.com/kaizhu256/node-utility2)
