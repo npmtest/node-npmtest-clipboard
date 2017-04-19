@@ -1,7 +1,10 @@
-# test coverage for  [clipboard (v1.6.1)](https://github.com/zenorocha/clipboard.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-clipboard.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-clipboard) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-clipboard.svg)](https://travis-ci.org/npmtest/node-npmtest-clipboard)
+# npmtest-clipboard
+
+#### test coverage for  [clipboard (v1.6.1)](https://github.com/zenorocha/clipboard.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-clipboard.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-clipboard) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-clipboard.svg)](https://travis-ci.org/npmtest/node-npmtest-clipboard)
+
 #### Modern copy to clipboard. No Flash. Just 2kb
 
-[![NPM](https://nodei.co/npm/clipboard.png?downloads=true)](https://www.npmjs.com/package/clipboard)
+[![NPM](https://nodei.co/npm/clipboard.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/clipboard)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-clipboard/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-clipboard/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-clipboard/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-clipboard/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-clipboard/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-clipboard/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-clipboard/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-clipboard/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-clipboard/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-clipboard/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-clipboard%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-clipboard/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-clipboard/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-clipboard/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-clipboard/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-clipboard%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-clipboard/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-clipboard/build/test-report.html](https://npmtest.github.io/node-npmtest-clipboard/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-clipboard/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-clipboard/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-clipboard/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-clipboard/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-clipboard/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-clipboard/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-clipboard/build/screenCapture.npmPackageListing.svg)
 
@@ -73,13 +82,11 @@
     "main": "lib/clipboard.js",
     "maintainers": [
         {
-            "name": "zenorocha",
-            "email": "zno.rocha@gmail.com"
+            "name": "zenorocha"
         }
     ],
     "name": "clipboard",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/zenorocha/clipboard.js.git"
