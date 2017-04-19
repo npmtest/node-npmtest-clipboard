@@ -1,7 +1,5 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <title>Code coverage report for node-npmtest-clipboard/clipboard/lib/clipboard-action.js</title>
+<html lang="en"><head>
+    <title>Code coverage report for node-npmtest-clipboard/node_modules/clipboard/lib/clipboard-action.js</title>
     <meta charset="utf-8">
     <style>
         body, html {
@@ -194,7 +192,7 @@
     <h1 style="font-weight: bold;">
         <a href="https://github.com/npmtest/node-npmtest-clipboard">npmtest-clipboard (v0.0.1)</a>
     </h1>
-    <h1>Code coverage report for <span class="entity">node-npmtest-clipboard/clipboard/lib/clipboard-action.js</span></h1>
+    <h1>Code coverage report for <span class="entity">node-npmtest-clipboard/node_modules/clipboard/lib/clipboard-action.js</span></h1>
     <h2>
         
         Statements: <span class="metric">26.92% <small>(28 / 104)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
@@ -210,11 +208,11 @@
         
         Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
     </h2>
-    <div class="path"><a href="../../../index.html">All files</a> &#187; <a href="index.html">node-npmtest-clipboard/clipboard/lib/</a> &#187; clipboard-action.js</div>
+    <div class="path"><a href="../../../../index.html">All files</a> » <a href="index.html">node-npmtest-clipboard/node_modules/clipboard/lib/</a> » clipboard-action.js</div>
 </div>
 <div class="body">
 <pre><table class="coverage">
-<tr><td class="line-count">1
+<tbody><tr><td class="line-count">1
 2
 3
 4
@@ -671,16 +669,16 @@
 <span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">(function (global, factory) {
-    <span class="missing-if-branch" title="if path not taken" >I</span>if (typeof define === "function" &amp;&amp; <span class="branch-1 cbranch-no" title="branch not covered" >define.amd)</span> {
-<span class="cstat-no" title="statement not covered" >        define(['module', 'select'], factory);</span>
-    } else <span class="missing-if-branch" title="else path not taken" >E</span>if (typeof exports !== "undefined") {
+    <span class="missing-if-branch" title="if path not taken">I</span>if (typeof define === "function" &amp;&amp; <span class="branch-1 cbranch-no" title="branch not covered">define.amd)</span> {
+<span class="cstat-no" title="statement not covered">        define(['module', 'select'], factory);</span>
+    } else <span class="missing-if-branch" title="else path not taken">E</span>if (typeof exports !== "undefined") {
         factory(module, require('select'));
     } else {
-<span class="cstat-no" title="statement not covered" >        var mod = {</span>
+<span class="cstat-no" title="statement not covered">        var mod = {</span>
             exports: {}
         };
-<span class="cstat-no" title="statement not covered" >        factory(mod, global.select);</span>
-<span class="cstat-no" title="statement not covered" >        global.clipboardAction = mod.exports;</span>
+<span class="cstat-no" title="statement not covered">        factory(mod, global.select);</span>
+<span class="cstat-no" title="statement not covered">        global.clipboardAction = mod.exports;</span>
     }
 })(this, function (module, _select) {
     'use strict';
@@ -688,20 +686,20 @@
     var _select2 = _interopRequireDefault(_select);
 &nbsp;
     function _interopRequireDefault(obj) {
-        return obj &amp;&amp; obj.__esModule ? <span class="branch-0 cbranch-no" title="branch not covered" >obj </span>: {
+        return obj &amp;&amp; obj.__esModule ? <span class="branch-0 cbranch-no" title="branch not covered">obj </span>: {
             default: obj
         };
     }
 &nbsp;
-    var _typeof = typeof Symbol === "function" &amp;&amp; typeof Symbol.iterator === "symbol" ? <span class="fstat-no" title="function not covered" >function (obj) {</span>
-<span class="cstat-no" title="statement not covered" >        return typeof obj;</span>
-    } : <span class="fstat-no" title="function not covered" ><span class="branch-1 cbranch-no" title="branch not covered" >function (obj) {</span></span>
-<span class="cstat-no" title="statement not covered" >        return obj &amp;&amp; typeof Symbol === "function" &amp;&amp; obj.constructor === Symbol &amp;&amp; obj !== Symbol.prototype ? "symbol" : typeof obj;</span>
+    var _typeof = typeof Symbol === "function" &amp;&amp; typeof Symbol.iterator === "symbol" ? <span class="fstat-no" title="function not covered">function (obj) {</span>
+<span class="cstat-no" title="statement not covered">        return typeof obj;</span>
+    } : <span class="fstat-no" title="function not covered"><span class="branch-1 cbranch-no" title="branch not covered">function (obj) {</span></span>
+<span class="cstat-no" title="statement not covered">        return obj &amp;&amp; typeof Symbol === "function" &amp;&amp; obj.constructor === Symbol &amp;&amp; obj !== Symbol.prototype ? "symbol" : typeof obj;</span>
     };
 &nbsp;
-<span class="fstat-no" title="function not covered" >    function _classCallCheck(instance, Constructor) {</span>
-<span class="cstat-no" title="statement not covered" >        if (!(instance instanceof Constructor)) {</span>
-<span class="cstat-no" title="statement not covered" >            throw new TypeError("Cannot call a class as a function");</span>
+<span class="fstat-no" title="function not covered">    function _classCallCheck(instance, Constructor) {</span>
+<span class="cstat-no" title="statement not covered">        if (!(instance instanceof Constructor)) {</span>
+<span class="cstat-no" title="statement not covered">            throw new TypeError("Cannot call a class as a function");</span>
         }
     }
 &nbsp;
@@ -717,8 +715,8 @@
         }
 &nbsp;
         return function (Constructor, protoProps, staticProps) {
-            <span class="missing-if-branch" title="else path not taken" >E</span>if (protoProps) defineProperties(Constructor.prototype, protoProps);
-            <span class="missing-if-branch" title="if path not taken" >I</span>if (staticProps) <span class="cstat-no" title="statement not covered" >defineProperties(Constructor, staticProps);</span>
+            <span class="missing-if-branch" title="else path not taken">E</span>if (protoProps) defineProperties(Constructor.prototype, protoProps);
+            <span class="missing-if-branch" title="if path not taken">I</span>if (staticProps) <span class="cstat-no" title="statement not covered">defineProperties(Constructor, staticProps);</span>
             return Constructor;
         };
     }();
@@ -727,11 +725,11 @@
         /**
          * @param {Object} options
          */
-<span class="fstat-no" title="function not covered" >        function ClipboardAction(options) {</span>
-<span class="cstat-no" title="statement not covered" >            _classCallCheck(this, ClipboardAction);</span>
+<span class="fstat-no" title="function not covered">        function ClipboardAction(options) {</span>
+<span class="cstat-no" title="statement not covered">            _classCallCheck(this, ClipboardAction);</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >            this.resolveOptions(options);</span>
-<span class="cstat-no" title="statement not covered" >            this.initSelection();</span>
+<span class="cstat-no" title="statement not covered">            this.resolveOptions(options);</span>
+<span class="cstat-no" title="statement not covered">            this.initSelection();</span>
         }
 &nbsp;
         /**
@@ -742,99 +740,99 @@
 &nbsp;
         _createClass(ClipboardAction, [{
             key: 'resolveOptions',
-            value: <span class="fstat-no" title="function not covered" >function resolveOptions() {</span>
-<span class="cstat-no" title="statement not covered" >                var options = arguments.length &gt; 0 &amp;&amp; arguments[0] !== undefined ? arguments[0] : {};</span>
+            value: <span class="fstat-no" title="function not covered">function resolveOptions() {</span>
+<span class="cstat-no" title="statement not covered">                var options = arguments.length &gt; 0 &amp;&amp; arguments[0] !== undefined ? arguments[0] : {};</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >                this.action = options.action;</span>
-<span class="cstat-no" title="statement not covered" >                this.emitter = options.emitter;</span>
-<span class="cstat-no" title="statement not covered" >                this.target = options.target;</span>
-<span class="cstat-no" title="statement not covered" >                this.text = options.text;</span>
-<span class="cstat-no" title="statement not covered" >                this.trigger = options.trigger;</span>
+<span class="cstat-no" title="statement not covered">                this.action = options.action;</span>
+<span class="cstat-no" title="statement not covered">                this.emitter = options.emitter;</span>
+<span class="cstat-no" title="statement not covered">                this.target = options.target;</span>
+<span class="cstat-no" title="statement not covered">                this.text = options.text;</span>
+<span class="cstat-no" title="statement not covered">                this.trigger = options.trigger;</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >                this.selectedText = '';</span>
+<span class="cstat-no" title="statement not covered">                this.selectedText = '';</span>
             }
         }, {
             key: 'initSelection',
-            value: <span class="fstat-no" title="function not covered" >function initSelection() {</span>
-<span class="cstat-no" title="statement not covered" >                if (this.text) {</span>
-<span class="cstat-no" title="statement not covered" >                    this.selectFake();</span>
-                } else <span class="cstat-no" title="statement not covered" >if (this.target) {</span>
-<span class="cstat-no" title="statement not covered" >                    this.selectTarget();</span>
+            value: <span class="fstat-no" title="function not covered">function initSelection() {</span>
+<span class="cstat-no" title="statement not covered">                if (this.text) {</span>
+<span class="cstat-no" title="statement not covered">                    this.selectFake();</span>
+                } else <span class="cstat-no" title="statement not covered">if (this.target) {</span>
+<span class="cstat-no" title="statement not covered">                    this.selectTarget();</span>
                 }
             }
         }, {
             key: 'selectFake',
-            value: <span class="fstat-no" title="function not covered" >function selectFake() {</span>
-<span class="cstat-no" title="statement not covered" >                var _this = this;</span>
+            value: <span class="fstat-no" title="function not covered">function selectFake() {</span>
+<span class="cstat-no" title="statement not covered">                var _this = this;</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >                var isRTL = document.documentElement.getAttribute('dir') == 'rtl';</span>
+<span class="cstat-no" title="statement not covered">                var isRTL = document.documentElement.getAttribute('dir') == 'rtl';</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >                this.removeFake();</span>
+<span class="cstat-no" title="statement not covered">                this.removeFake();</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >                this.fakeHandlerCallback = <span class="fstat-no" title="function not covered" >function () {</span></span>
-<span class="cstat-no" title="statement not covered" >                    return _this.removeFake();</span>
+<span class="cstat-no" title="statement not covered">                this.fakeHandlerCallback = <span class="fstat-no" title="function not covered">function () {</span></span>
+<span class="cstat-no" title="statement not covered">                    return _this.removeFake();</span>
                 };
-<span class="cstat-no" title="statement not covered" >                this.fakeHandler = document.body.addEventListener('click', this.fakeHandlerCallback) || true;</span>
+<span class="cstat-no" title="statement not covered">                this.fakeHandler = document.body.addEventListener('click', this.fakeHandlerCallback) || true;</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >                this.fakeElem = document.createElement('textarea');</span>
+<span class="cstat-no" title="statement not covered">                this.fakeElem = document.createElement('textarea');</span>
                 // Prevent zooming on iOS
-<span class="cstat-no" title="statement not covered" >                this.fakeElem.style.fontSize = '12pt';</span>
+<span class="cstat-no" title="statement not covered">                this.fakeElem.style.fontSize = '12pt';</span>
                 // Reset box model
-<span class="cstat-no" title="statement not covered" >                this.fakeElem.style.border = '0';</span>
-<span class="cstat-no" title="statement not covered" >                this.fakeElem.style.padding = '0';</span>
-<span class="cstat-no" title="statement not covered" >                this.fakeElem.style.margin = '0';</span>
+<span class="cstat-no" title="statement not covered">                this.fakeElem.style.border = '0';</span>
+<span class="cstat-no" title="statement not covered">                this.fakeElem.style.padding = '0';</span>
+<span class="cstat-no" title="statement not covered">                this.fakeElem.style.margin = '0';</span>
                 // Move element out of screen horizontally
-<span class="cstat-no" title="statement not covered" >                this.fakeElem.style.position = 'absolute';</span>
-<span class="cstat-no" title="statement not covered" >                this.fakeElem.style[isRTL ? 'right' : 'left'] = '-9999px';</span>
+<span class="cstat-no" title="statement not covered">                this.fakeElem.style.position = 'absolute';</span>
+<span class="cstat-no" title="statement not covered">                this.fakeElem.style[isRTL ? 'right' : 'left'] = '-9999px';</span>
                 // Move element to the same position vertically
-<span class="cstat-no" title="statement not covered" >                var yPosition = window.pageYOffset || document.documentElement.scrollTop;</span>
-<span class="cstat-no" title="statement not covered" >                this.fakeElem.style.top = yPosition + 'px';</span>
+<span class="cstat-no" title="statement not covered">                var yPosition = window.pageYOffset || document.documentElement.scrollTop;</span>
+<span class="cstat-no" title="statement not covered">                this.fakeElem.style.top = yPosition + 'px';</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >                this.fakeElem.setAttribute('readonly', '');</span>
-<span class="cstat-no" title="statement not covered" >                this.fakeElem.value = this.text;</span>
+<span class="cstat-no" title="statement not covered">                this.fakeElem.setAttribute('readonly', '');</span>
+<span class="cstat-no" title="statement not covered">                this.fakeElem.value = this.text;</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >                document.body.appendChild(this.fakeElem);</span>
+<span class="cstat-no" title="statement not covered">                document.body.appendChild(this.fakeElem);</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >                this.selectedText = (0, _select2.default)(this.fakeElem);</span>
-<span class="cstat-no" title="statement not covered" >                this.copyText();</span>
+<span class="cstat-no" title="statement not covered">                this.selectedText = (0, _select2.default)(this.fakeElem);</span>
+<span class="cstat-no" title="statement not covered">                this.copyText();</span>
             }
         }, {
             key: 'removeFake',
-            value: <span class="fstat-no" title="function not covered" >function removeFake() {</span>
-<span class="cstat-no" title="statement not covered" >                if (this.fakeHandler) {</span>
-<span class="cstat-no" title="statement not covered" >                    document.body.removeEventListener('click', this.fakeHandlerCallback);</span>
-<span class="cstat-no" title="statement not covered" >                    this.fakeHandler = null;</span>
-<span class="cstat-no" title="statement not covered" >                    this.fakeHandlerCallback = null;</span>
+            value: <span class="fstat-no" title="function not covered">function removeFake() {</span>
+<span class="cstat-no" title="statement not covered">                if (this.fakeHandler) {</span>
+<span class="cstat-no" title="statement not covered">                    document.body.removeEventListener('click', this.fakeHandlerCallback);</span>
+<span class="cstat-no" title="statement not covered">                    this.fakeHandler = null;</span>
+<span class="cstat-no" title="statement not covered">                    this.fakeHandlerCallback = null;</span>
                 }
 &nbsp;
-<span class="cstat-no" title="statement not covered" >                if (this.fakeElem) {</span>
-<span class="cstat-no" title="statement not covered" >                    document.body.removeChild(this.fakeElem);</span>
-<span class="cstat-no" title="statement not covered" >                    this.fakeElem = null;</span>
+<span class="cstat-no" title="statement not covered">                if (this.fakeElem) {</span>
+<span class="cstat-no" title="statement not covered">                    document.body.removeChild(this.fakeElem);</span>
+<span class="cstat-no" title="statement not covered">                    this.fakeElem = null;</span>
                 }
             }
         }, {
             key: 'selectTarget',
-            value: <span class="fstat-no" title="function not covered" >function selectTarget() {</span>
-<span class="cstat-no" title="statement not covered" >                this.selectedText = (0, _select2.default)(this.target);</span>
-<span class="cstat-no" title="statement not covered" >                this.copyText();</span>
+            value: <span class="fstat-no" title="function not covered">function selectTarget() {</span>
+<span class="cstat-no" title="statement not covered">                this.selectedText = (0, _select2.default)(this.target);</span>
+<span class="cstat-no" title="statement not covered">                this.copyText();</span>
             }
         }, {
             key: 'copyText',
-            value: <span class="fstat-no" title="function not covered" >function copyText() {</span>
-<span class="cstat-no" title="statement not covered" >                var succeeded = void 0;</span>
+            value: <span class="fstat-no" title="function not covered">function copyText() {</span>
+<span class="cstat-no" title="statement not covered">                var succeeded = void 0;</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >                try {</span>
-<span class="cstat-no" title="statement not covered" >                    succeeded = document.execCommand(this.action);</span>
+<span class="cstat-no" title="statement not covered">                try {</span>
+<span class="cstat-no" title="statement not covered">                    succeeded = document.execCommand(this.action);</span>
                 } catch (err) {
-<span class="cstat-no" title="statement not covered" >                    succeeded = false;</span>
+<span class="cstat-no" title="statement not covered">                    succeeded = false;</span>
                 }
 &nbsp;
-<span class="cstat-no" title="statement not covered" >                this.handleResult(succeeded);</span>
+<span class="cstat-no" title="statement not covered">                this.handleResult(succeeded);</span>
             }
         }, {
             key: 'handleResult',
-            value: <span class="fstat-no" title="function not covered" >function handleResult(succeeded) {</span>
-<span class="cstat-no" title="statement not covered" >                this.emitter.emit(succeeded ? 'success' : 'error', {</span>
+            value: <span class="fstat-no" title="function not covered">function handleResult(succeeded) {</span>
+<span class="cstat-no" title="statement not covered">                this.emitter.emit(succeeded ? 'success' : 'error', {</span>
                     action: this.action,
                     text: this.selectedText,
                     trigger: this.trigger,
@@ -843,53 +841,53 @@
             }
         }, {
             key: 'clearSelection',
-            value: <span class="fstat-no" title="function not covered" >function clearSelection() {</span>
-<span class="cstat-no" title="statement not covered" >                if (this.target) {</span>
-<span class="cstat-no" title="statement not covered" >                    this.target.blur();</span>
+            value: <span class="fstat-no" title="function not covered">function clearSelection() {</span>
+<span class="cstat-no" title="statement not covered">                if (this.target) {</span>
+<span class="cstat-no" title="statement not covered">                    this.target.blur();</span>
                 }
 &nbsp;
-<span class="cstat-no" title="statement not covered" >                window.getSelection().removeAllRanges();</span>
+<span class="cstat-no" title="statement not covered">                window.getSelection().removeAllRanges();</span>
             }
         }, {
             key: 'destroy',
-            value: <span class="fstat-no" title="function not covered" >function destroy() {</span>
-<span class="cstat-no" title="statement not covered" >                this.removeFake();</span>
+            value: <span class="fstat-no" title="function not covered">function destroy() {</span>
+<span class="cstat-no" title="statement not covered">                this.removeFake();</span>
             }
         }, {
             key: 'action',
-            set: <span class="fstat-no" title="function not covered" >function set() {</span>
-<span class="cstat-no" title="statement not covered" >                var action = arguments.length &gt; 0 &amp;&amp; arguments[0] !== undefined ? arguments[0] : 'copy';</span>
+            set: <span class="fstat-no" title="function not covered">function set() {</span>
+<span class="cstat-no" title="statement not covered">                var action = arguments.length &gt; 0 &amp;&amp; arguments[0] !== undefined ? arguments[0] : 'copy';</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >                this._action = action;</span>
+<span class="cstat-no" title="statement not covered">                this._action = action;</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >                if (this._action !== 'copy' &amp;&amp; this._action !== 'cut') {</span>
-<span class="cstat-no" title="statement not covered" >                    throw new Error('Invalid "action" value, use either "copy" or "cut"');</span>
+<span class="cstat-no" title="statement not covered">                if (this._action !== 'copy' &amp;&amp; this._action !== 'cut') {</span>
+<span class="cstat-no" title="statement not covered">                    throw new Error('Invalid "action" value, use either "copy" or "cut"');</span>
                 }
             },
-            get: <span class="fstat-no" title="function not covered" >function get() {</span>
-<span class="cstat-no" title="statement not covered" >                return this._action;</span>
+            get: <span class="fstat-no" title="function not covered">function get() {</span>
+<span class="cstat-no" title="statement not covered">                return this._action;</span>
             }
         }, {
             key: 'target',
-            set: <span class="fstat-no" title="function not covered" >function set(target) {</span>
-<span class="cstat-no" title="statement not covered" >                if (target !== undefined) {</span>
-<span class="cstat-no" title="statement not covered" >                    if (target &amp;&amp; (typeof target === 'undefined' ? 'undefined' : _typeof(target)) === 'object' &amp;&amp; target.nodeType === 1) {</span>
-<span class="cstat-no" title="statement not covered" >                        if (this.action === 'copy' &amp;&amp; target.hasAttribute('disabled')) {</span>
-<span class="cstat-no" title="statement not covered" >                            throw new Error('Invalid "target" attribute. Please use "readonly" instead of "disabled" attribute');</span>
+            set: <span class="fstat-no" title="function not covered">function set(target) {</span>
+<span class="cstat-no" title="statement not covered">                if (target !== undefined) {</span>
+<span class="cstat-no" title="statement not covered">                    if (target &amp;&amp; (typeof target === 'undefined' ? 'undefined' : _typeof(target)) === 'object' &amp;&amp; target.nodeType === 1) {</span>
+<span class="cstat-no" title="statement not covered">                        if (this.action === 'copy' &amp;&amp; target.hasAttribute('disabled')) {</span>
+<span class="cstat-no" title="statement not covered">                            throw new Error('Invalid "target" attribute. Please use "readonly" instead of "disabled" attribute');</span>
                         }
 &nbsp;
-<span class="cstat-no" title="statement not covered" >                        if (this.action === 'cut' &amp;&amp; (target.hasAttribute('readonly') || target.hasAttribute('disabled'))) {</span>
-<span class="cstat-no" title="statement not covered" >                            throw new Error('Invalid "target" attribute. You can\'t cut text from elements with "readonly" or "disabled" attributes');</span>
+<span class="cstat-no" title="statement not covered">                        if (this.action === 'cut' &amp;&amp; (target.hasAttribute('readonly') || target.hasAttribute('disabled'))) {</span>
+<span class="cstat-no" title="statement not covered">                            throw new Error('Invalid "target" attribute. You can\'t cut text from elements with "readonly" or "disabled" attributes');</span>
                         }
 &nbsp;
-<span class="cstat-no" title="statement not covered" >                        this._target = target;</span>
+<span class="cstat-no" title="statement not covered">                        this._target = target;</span>
                     } else {
-<span class="cstat-no" title="statement not covered" >                        throw new Error('Invalid "target" value, use a valid Element');</span>
+<span class="cstat-no" title="statement not covered">                        throw new Error('Invalid "target" value, use a valid Element');</span>
                     }
                 }
             },
-            get: <span class="fstat-no" title="function not covered" >function get() {</span>
-<span class="cstat-no" title="statement not covered" >                return this._target;</span>
+            get: <span class="fstat-no" title="function not covered">function get() {</span>
+<span class="cstat-no" title="statement not covered">                return this._target;</span>
             }
         }]);
 &nbsp;
@@ -899,10 +897,11 @@
     module.exports = ClipboardAction;
 });
 &nbsp;</pre></td></tr>
-</table></pre>
+</tbody></table></pre>
 </div>
 <div class="footer">
-    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Tue Apr 11 2017 19:10:04 GMT+0000 (UTC)</div>
+    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Wed Apr 19 2017 04:01:35 GMT+0000 (UTC)</div>
 </div>
-</body>
-</html>
+
+
+</body></html>
