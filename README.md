@@ -1,6 +1,6 @@
 # npmtest-clipboard
 
-#### test coverage for  [clipboard (v1.6.1)](https://github.com/zenorocha/clipboard.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-clipboard.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-clipboard) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-clipboard.svg)](https://travis-ci.org/npmtest/node-npmtest-clipboard)
+#### basic test coverage for  [clipboard (v1.6.1)](https://github.com/zenorocha/clipboard.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-clipboard.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-clipboard) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-clipboard.svg)](https://travis-ci.org/npmtest/node-npmtest-clipboard)
 
 #### Modern copy to clipboard. No Flash. Just 2kb
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-clipboard/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-clipboard/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-clipboard/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-clipboard/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-clipboard/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-clipboard/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-clipboard/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-clipboard/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-clipboard/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-clipboard/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-clipboard/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-clipboard/build/coverage.html/index.html)
 
@@ -99,7 +99,8 @@
         "prepublish": "babel src --out-dir lib",
         "test": "karma start --single-run"
     },
-    "version": "1.6.1"
+    "version": "1.6.1",
+    "bin": {}
 }
 ```
 
